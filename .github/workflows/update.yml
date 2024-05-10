@@ -44,5 +44,5 @@ jobs:
       - name: Publish to npm
         if: steps.check.outputs.changed == 1 || github.event.inputs.force-publish == 'true'
         env: 
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npm publish --provenance
