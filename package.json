@@ -1,0 +1,29 @@
+{
+  "name": "aaguids",
+  "version": "0.0.1",
+  "description": "Maps AAGUIDs to display names.",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "files": [
+    "./index.js",
+    "./index.d.ts",
+    "aaguids.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darthmaim/aaguids.git"
+  },
+  "keywords": [
+    "aaguid",
+    "webauthn"
+  ],
+  "author": "darthmaim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darthmaim/aaguids/issues"
+  },
+  "homepage": "https://github.com/darthmaim/aaguids#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
