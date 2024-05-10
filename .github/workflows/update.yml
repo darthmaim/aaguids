@@ -1,6 +1,8 @@
 name: Update AAGUIDs
 
 on:
+  schedule:
+    - cron: '30 16 * * *'
   workflow_dispatch:
     inputs:
       force-publish:
