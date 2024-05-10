@@ -10,11 +10,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run a one-line script
         run: |
-          curl https://raw.githubusercontent.com/passkeydeveloper/passkey-authenticator-aaguids/main/combined_aaguid.json\
-          | jq 'to_entries | [.[] | { key, value: .value.name }] | from_entries'\
+          curl https://raw.githubusercontent.com/passkeydeveloper/passkey-authenticator-aaguids/main/combined_aaguid.json \
+          | jq 'to_entries | [.[] | { key, value: .value.name }] | from_entries' \
           > aaguids.json
       - run: cat aaguids.json
       - run: |
-          git add aaguids
+          git add aaguids.json
           git commit -m "update aaguids.json"
           git push
