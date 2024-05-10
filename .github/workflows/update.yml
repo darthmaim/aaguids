@@ -1,0 +1,20 @@
+name: Update AAGUIDs
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-aaguids:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run a one-line script
+        run: |
+          curl https://github.com/passkeydeveloper/passkey-authenticator-aaguids/raw/main/combined_aaguid.json\
+          | jq 'to_entries | [.[] | { key, value: .value.name }] | from_entries'\
+          > aaguids.json
+      - run: cat aaguids.json
+      - run: |
+          git add aaguids
+          git commit -m "update aaguids.json"
+          git push
