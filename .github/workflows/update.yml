@@ -8,23 +8,39 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      id-token: write
     steps:
       - uses: actions/checkout@v4
-      - name: Run a one-line script
+      - name: Build aaguids.json
         run: |
           curl https://raw.githubusercontent.com/passkeydeveloper/passkey-authenticator-aaguids/main/combined_aaguid.json \
           | jq 'to_entries | [.[] | { key, value: .value.name }] | from_entries' \
           > aaguids.json
-      - run: cat aaguids.json
-      - run: |
+      - name: aaguids.json
+        run: cat aaguids.json
+      - name: Publish new version if aaguids.json changed
+        env: 
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
           # check if aaguids.json changed
           if ! git status --porcelain aaguids.json | grep -q . ; then
             echo "Workspace is clean, skipping update."
             exit 0
           fi
           
+          # configure git user
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # commit changes
           git add aaguids.json
           git commit -m "update aaguids.json"
+          
+          # update package version
+          npm version patch
+
+          # push changes to repo
           git push
+
+          # publish to npm
+          npm publish --provenance
