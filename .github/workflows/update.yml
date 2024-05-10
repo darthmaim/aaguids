@@ -40,7 +40,7 @@ jobs:
           npm version patch
 
           # push changes to repo
-          git push
+          git push --follow-tags
       - name: Publish to npm
         if: steps.check.outputs.changed == 'true' || github.event.inputs.force-publish == 'true'
         env: 
