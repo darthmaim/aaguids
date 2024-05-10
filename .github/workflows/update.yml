@@ -2,6 +2,10 @@ name: Update AAGUIDs
 
 on:
   workflow_dispatch:
+    inputs:
+      force-publish:
+        type: boolean
+        description: Try to publish even if aaguids.json did not change
 
 jobs:
   update-aaguids:
@@ -38,7 +42,7 @@ jobs:
           # push changes to repo
           git push
       - name: Publish to npm
-        if: steps.check.outputs.changed == 1
+        if: steps.check.outputs.changed == 1 || github.event.inputs.force-publish == 'true'
         env: 
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npm publish --provenance
