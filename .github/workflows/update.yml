@@ -18,16 +18,12 @@ jobs:
           > aaguids.json
       - name: aaguids.json
         run: cat aaguids.json
-      - name: Publish new version if aaguids.json changed
-        env: 
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Check if aaguids.json changed
+        id: check
+        run: (git status --porcelain aaguids.json | grep -q .) && echo "changed=1" || echo "changed=0" >> "$GITHUB_OUTPUT"
+      - name: Commit changes
+        if: steps.check.outputs.changed == 1
         run: |
-          # check if aaguids.json changed
-          if ! git status --porcelain aaguids.json | grep -q . ; then
-            echo "Workspace is clean, skipping update."
-            exit 0
-          fi
-          
           # configure git user
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -41,6 +37,8 @@ jobs:
 
           # push changes to repo
           git push
-
-          # publish to npm
-          npm publish --provenance
+      - name: Publish to npm
+        if: steps.check.outputs.changed == 1
+        env: 
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish --provenance
