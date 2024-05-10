@@ -24,9 +24,9 @@ jobs:
         run: cat aaguids.json
       - name: Check if aaguids.json changed
         id: check
-        run: (git status --porcelain aaguids.json | grep -q .) && echo "changed=1" || echo "changed=0" >> "$GITHUB_OUTPUT"
+        run: (git status --porcelain aaguids.json | grep -q .) && echo "changed=true" || echo "changed=false" >> "$GITHUB_OUTPUT"
       - name: Commit changes
-        if: steps.check.outputs.changed == 1
+        if: steps.check.outputs.changed == 'true'
         run: |
           # configure git user
           git config user.name "github-actions[bot]"
@@ -42,7 +42,7 @@ jobs:
           # push changes to repo
           git push
       - name: Publish to npm
-        if: steps.check.outputs.changed == 1 || github.event.inputs.force-publish == 'true'
+        if: steps.check.outputs.changed == 'true' || github.event.inputs.force-publish == 'true'
         env: 
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
