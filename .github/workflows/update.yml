@@ -24,7 +24,7 @@ jobs:
         run: cat aaguids.json
       - name: Check if aaguids.json changed
         id: check
-        run: (git status --porcelain aaguids.json | grep -q .) && echo "changed=true" || echo "changed=false" >> "$GITHUB_OUTPUT"
+        run: ((git status --porcelain aaguids.json | grep -q .) && echo "changed=true" || echo "changed=false") >> "$GITHUB_OUTPUT"
       - name: Commit changes
         if: steps.check.outputs.changed == 'true'
         run: |
