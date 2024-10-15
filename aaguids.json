@@ -38,10 +38,12 @@
   "d91c5288-0ef0-49b7-b8ae-21ca0aa6b3f3": "KEY-ID FIDO2 Authenticator",
   "4c50ff10-1057-4fc6-b8ed-43a529530c3c": "ImproveID Authenticator",
   "ee041bce-25e5-4cdb-8f86-897fd6418464": "Feitian ePass FIDO2-NFC Authenticator",
+  "4b89f401-464e-4745-a520-486ddfc5d80e": "IIST FIDO2 Authenticator",
   "efb96b10-a9ee-4b6c-a4a9-d32125ccd4a4": "Safenet eToken FIDO",
   "4b3f8944-d4f2-4d21-bb19-764a986ec160": "KeyXentic FIDO2 Secp256R1 FIDO2 CTAP2 Authenticator",
   "4c0cf95d-2f40-43b5-ba42-4c83a11c04ba": "Feitian BioPass FIDO2 Pro Authenticator",
   "5343502d-5343-5343-6172-644649444f32": "ESS Smart Card Inc. Authenticator",
+  "69e7c36f-f2f6-9e0d-07a6-bcc243262e6b": "OneKey FIDO2 Authenticator",
   "09591fc6-9811-48f7-8f57-b9f23df6413f": "Pone Biometrics OFFPAD Authenticator",
   "7e3f3d30-3557-4442-bdae-139312178b39": "RSA DS100",
   "73bb0cd4-e502-49b8-9c6f-b59445bf720b": "YubiKey 5 FIPS Series",
@@ -110,7 +112,7 @@
   "7d1351a6-e097-4852-b8bf-c9ac5c9ce4a3": "YubiKey Bio Series - Multi-protocol Edition",
   "07a9f89c-6407-4594-9d56-621d5f1e358b": "NXP Semiconductros FIDO2 Conformance Testing CTAP2 Authenticator",
   "d61d3b87-3e7c-4aea-9c50-441c371903ad": "KeyVault Secp256R1 FIDO2 CTAP2 Authenticator",
-  "5ca1ab1e-1337-fa57-f1d0-a117e71ca702": "Allthenticator App: roaming BLE FIDO2 Allthenticator for Windows, Mac, Linux, and Allthenticate door readers",
+  "5ca1ab1e-1337-fa57-f1d0-a117e71ca702": "Allthenticator iOS App: roaming BLE FIDO2 Allthenticator for Windows, Mac, Linux, and Allthenticate door readers",
   "b92c3f9a-c014-4056-887f-140a2501163b": "Security Key by Yubico",
   "54d9fee8-e621-4291-8b18-7157b99c5bec": "HID Crescendo Enabled",
   "a25342c0-3cdc-4414-8e46-f4807fca511c": "YubiKey 5 Series with NFC",
@@ -190,5 +192,6 @@
   "50726f74-6f6e-5061-7373-50726f746f6e": "Proton Pass",
   "fdb141b2-5d84-443e-8a35-4698c205a502": "KeePassXC",
   "cc45f64e-52a2-451b-831a-4edd8022a202": "ToothPic Passkey Provider",
-  "bfc748bb-3429-4faa-b9f9-7cfa9f3b76d0": "iPasswords"
+  "bfc748bb-3429-4faa-b9f9-7cfa9f3b76d0": "iPasswords",
+  "b35a26b2-8f6e-4697-ab1d-d44db4da28c6": "Zoho Vault"
 }
