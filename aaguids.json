@@ -78,7 +78,7 @@
   "8976631b-d4a0-427f-5773-0ec71c9e0279": "Solo Tap Secp256R1 FIDO2 CTAP2 Authenticator",
   "516d3969-5a57-5651-5958-4e7a49434167": "SmartDisplayer BobeePass FIDO2 Authenticator",
   "8681a073-5f50-4d52-bce4-e21658d207b3": "RSA Authenticator 4 for iOS",
-  "e41b42a3-60ac-4afb-8757-a98f2d7f6c9f": "SafeKey/Classic (FP)",
+  "e41b42a3-60ac-4afb-8757-a98f2d7f6c9f": "Deepnet SafeKey/Classic (FP)",
   "c89e6a38-6c00-5426-5aa5-c9cbf48f0382": "ACS FIDO Authenticator NFC",
   "a02167b9-ae71-4ac7-9a07-06432ebb6f1c": "YubiKey 5 Series with Lightning",
   "82b0a720-127a-4788-b56d-d1d4b2d82eac": "ID-One Key",
@@ -95,6 +95,7 @@
   "3124e301-f14e-4e38-876d-fbeeb090e7bf": "YubiKey 5 Series with Lightning Preview",
   "b6ede29c-3772-412c-8a78-539c1f4c62d2": "Feitian BioPass FIDO2 Plus Authenticator",
   "ed042a3a-4b22-4455-bb69-a267b652ae7e": "Security Key NFC by Yubico - Enterprise Edition",
+  "b2c1a50b-dad8-4dc7-ba4d-0ce9597904bc": "YubiKey 5 Series with NFC - Enhanced PIN (Enterprise Profile)",
   "85203421-48f9-4355-9bc8-8a53846e5083": "YubiKey 5 FIPS Series with Lightning",
   "fcc0118f-cd45-435b-8da1-9782b2da0715": "YubiKey 5 FIPS Series with NFC",
   "d821a7d4-e97c-4cb6-bd82-4237731fd4be": "Hyper FIDO Bio Security Key",
@@ -126,8 +127,10 @@
   "bbf4b6a7-679d-f6fc-c4f2-8ac0ddf9015a": "Excelsecu eSecu FIDO2 PRO Security Key",
   "3e22415d-7fdf-4ea4-8a0c-dd60c4249b9d": "Feitian iePass FIDO Authenticator",
   "23786452-f02d-4344-87ed-aaf703726881": "SafeNet eToken Fusion CC",
+  "5e264d9d-28ef-4d34-95b4-5941e7a4faa8": "Ideem ZSM FIDO2 Authenticator",
   "d2fbd093-ee62-488d-9dad-1e36389f8826": "YubiKey 5 FIPS Series (RC Preview)",
   "234cd403-35a2-4cc2-8015-77ea280c77f5": "Feitian ePass FIDO2-NFC Series (CTAP2.1, CTAP2.0, U2F)",
+  "662ef48a-95e2-4aaa-a6c1-5b9c40375824": "YubiKey 5 Series with NFC - Enhanced PIN",
   "aeb6569c-f8fb-4950-ac60-24ca2bbe2e52": "HID Crescendo C2300",
   "87dbc5a1-4c94-4dc8-8a47-97d800fd1f3c": "eWBM eFA320 FIDO2 Authenticator",
   "58276709-bb4b-4bb3-baf1-60eea99282a7": "YubiKey Bio Series - Multi-protocol Edition 1VDJSN",
@@ -263,5 +266,6 @@
   "b78a0a55-6ef8-d246-a042-ba0f6d55050c": "LastPass",
   "de503f9c-21a4-4f76-b4b7-558eb55c6f89": "Devolutions",
   "22248c4c-7a12-46e2-9a41-44291b373a4d": "LogMeOnce",
-  "a10c6dd9-465e-4226-8198-c7c44b91c555": "Kaspersky Password Manager"
+  "a10c6dd9-465e-4226-8198-c7c44b91c555": "Kaspersky Password Manager",
+  "b4637dbe-47a4-a8d4-36f1-c6ae7c6f2d18": "Wikey Security"
 }
