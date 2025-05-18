@@ -1,6 +1,7 @@
 {
   "fcb1bcb4-f370-078c-6993-bc24d0ae3fbe": "Ledger Nano X FIDO2 Authenticator",
   "6e8d1eae-8d40-4c25-bcf8-4633959afc71": "Veridium iOS SDK",
+  "9eb7eabc-9db5-49a1-b6c3-555a802093f4": "YubiKey 5 Series with NFC 2093F4",
   "4d41190c-7beb-4a84-8018-adf265a6352d": "Thales IDPrime FIDO Bio",
   "2772ce93-eb4b-4090-8b73-330f48477d73": "Security Key NFC by Yubico - Enterprise Edition Preview",
   "6dae43be-af9c-417b-8b9f-1b611168ec60": "Dapple Authenticator from Dapple Security Inc.",
@@ -148,6 +149,7 @@
   "be727034-574a-f799-5c76-0929e0430973": "Crayonic KeyVault K1 (USB-NFC-BLE FIDO2 Authenticator)",
   "092277e5-8437-46b5-b911-ea64b294acb7": "Taglio CTAP2.1 CS",
   "ca87cb70-4c1b-4579-a8e8-4efdd7c007e0": "FIDO Alliance TruU Sample FIDO2 Authenticator",
+  "a7fc3f84-86a3-4da4-a3d7-eb6485a066d8": "NEOWAVE Badgeo FIDO2 (CTAP 2.1)",
   "9e66c661-e428-452a-a8fb-51f7ed088acf": "YubiKey 5 FIPS Series with Lightning (RC Preview)",
   "58b44d0b-0a7c-f33a-fd48-f7153c871352": "Ledger Nano S Plus FIDO2 Authenticator",
   "454e5346-4944-4ffd-6c93-8e9267193e9b": "Ensurity AUTH BioPro",
@@ -191,6 +193,7 @@
   "70e7c36f-f2f6-9e0d-07a6-bcc243262e6b": "OneKey FIDO2 Bluetooth Authenticator",
   "6ab56fad-881f-4a43-acb2-0be065924522": "YubiKey 5 Series with NFC (Enterprise Profile)",
   "504d7149-4e4c-3841-4555-55445a677357": "WiSECURE AuthTron USB FIDO2 Authenticator",
+  "2c2aeed8-8174-4159-814b-486e92a261d0": "NEOWAVE WINKEO V2.0",
   "f2145e86-211e-4931-b874-e22bba7d01cc": "ID-One Key",
   "a3975549-b191-fd67-b8fb-017e2917fdb3": "Excelsecu eSecu FIDO2 NFC Security Key",
   "19083c3d-8383-4b18-bc03-8f1c9ab2fd1b": "YubiKey 5 Series",
@@ -267,5 +270,5 @@
   "de503f9c-21a4-4f76-b4b7-558eb55c6f89": "Devolutions",
   "22248c4c-7a12-46e2-9a41-44291b373a4d": "LogMeOnce",
   "a10c6dd9-465e-4226-8198-c7c44b91c555": "Kaspersky Password Manager",
-  "b4637dbe-47a4-a8d4-36f1-c6ae7c6f2d18": "Wikey Security"
+  "d350af52-0351-4ba2-acd3-dfeeadc3f764": "pwSafe"
 }
