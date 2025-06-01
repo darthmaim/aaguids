@@ -1,7 +1,7 @@
 {
   "fcb1bcb4-f370-078c-6993-bc24d0ae3fbe": "Ledger Nano X FIDO2 Authenticator",
   "6e8d1eae-8d40-4c25-bcf8-4633959afc71": "Veridium iOS SDK",
-  "9eb7eabc-9db5-49a1-b6c3-555a802093f4": "YubiKey 5 Series with NFC 2093F4",
+  "9eb7eabc-9db5-49a1-b6c3-555a802093f4": "YubiKey 5 Series with NFC KVZR57",
   "4d41190c-7beb-4a84-8018-adf265a6352d": "Thales IDPrime FIDO Bio",
   "2772ce93-eb4b-4090-8b73-330f48477d73": "Security Key NFC by Yubico - Enterprise Edition Preview",
   "6dae43be-af9c-417b-8b9f-1b611168ec60": "Dapple Authenticator from Dapple Security Inc.",
@@ -107,7 +107,7 @@
   "f4c63eff-d26c-4248-801c-3736c7eaa93a": "FIDO KeyPass S3",
   "d384db22-4d50-ebde-2eac-5765cf1e2a44": "Excelsecu eSecu FIDO2 Fingerprint Security Key",
   "0db01cd6-5618-455b-bb46-1ec203d3213e": "GoldKey Security Token",
-  "b93fd961-f2e6-462f-b122-82002247de78": "Android Authenticator with SafetyNet Attestation",
+  "b93fd961-f2e6-462f-b122-82002247de78": "Android Authenticator",
   "1e906e14-77af-46bc-ae9f-fe6ef18257e4": "VeridiumID Passkey iOS SDK",
   "2fc0579f-8113-47ea-b116-bb5a8db9202a": "YubiKey 5 Series with NFC",
   "31c3f7ff-bf15-4327-83ec-9336abcbcd34": "WinMagic FIDO Eazy - Software",
