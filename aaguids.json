@@ -143,6 +143,7 @@
   "87dbc5a1-4c94-4dc8-8a47-97d800fd1f3c": "eWBM eFA320 FIDO2 Authenticator",
   "58276709-bb4b-4bb3-baf1-60eea99282a7": "YubiKey Bio Series - Multi-protocol Edition 1VDJSN",
   "7d2afadd-bf6b-44a2-a66b-e831fceb8eff": "Taglio CTAP2.1 EP",
+  "30b5035e-d297-4ff1-020b-addc96ba6a98": "OneSpan DIGIPASS FX1-C",
   "20ac7a17-c814-4833-93fe-539f0d5e3389": "YubiKey 5 Series (Enterprise Profile)",
   "9012593f-43e4-4461-a97a-d92777b55d74": "VinCSS FIDO2 Fingerprint",
   "d7781e5d-e353-46aa-afe2-3ca49f13332a": "YubiKey 5 Series with NFC",
@@ -282,5 +283,6 @@
   "22248c4c-7a12-46e2-9a41-44291b373a4d": "LogMeOnce",
   "a10c6dd9-465e-4226-8198-c7c44b91c555": "Kaspersky Password Manager",
   "d350af52-0351-4ba2-acd3-dfeeadc3f764": "pwSafe",
-  "d3452668-01fd-4c12-926c-83a4204853aa": "Microsoft Password Manager"
+  "d3452668-01fd-4c12-926c-83a4204853aa": "Microsoft Password Manager",
+  "6d212b28-a2c1-4638-b375-5932070f62e9": "initial"
 }
