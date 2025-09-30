@@ -57,6 +57,9 @@ jobs:
         if: steps.check.outputs.changed == 'true' || github.event.inputs.force-publish == 'true'
         with:
           registry-url: 'https://registry.npmjs.org'
+          always-auth: true
       - name: Publish to npm
         if: steps.check.outputs.changed == 'true' || github.event.inputs.force-publish == 'true'
-        run: npm publish
+        run: |
+          npm whoami
+          npm publish
