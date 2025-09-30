@@ -45,8 +45,4 @@ jobs:
           git push --follow-tags
       - name: Publish to npm
         if: steps.check.outputs.changed == 'true' || github.event.inputs.force-publish == 'true'
-        env: 
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
-          npm publish --provenance
+        run: npm publish
