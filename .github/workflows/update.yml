@@ -17,16 +17,20 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v4
+
       - name: Build aaguids.json
         run: |
           curl https://raw.githubusercontent.com/passkeydeveloper/passkey-authenticator-aaguids/main/combined_aaguid.json \
           | jq 'to_entries | [.[] | { key, value: .value.name }] | from_entries' \
           > aaguids.json
+
       - name: aaguids.json
         run: cat aaguids.json
+
       - name: Check if aaguids.json changed
         id: check
         run: ((git status --porcelain aaguids.json | grep -q .) && echo "changed=true" || echo "changed=false") >> "$GITHUB_OUTPUT"
+
       - name: Commit changes
         if: steps.check.outputs.changed == 'true'
         run: |
@@ -37,14 +41,17 @@ jobs:
           # commit changes
           git add aaguids.json
           git commit -m "update aaguids.json"
-          
+
           # update package version
           npm version patch
 
           # push changes to repo
           git push --follow-tags
+
+      - uses: actions/setup-node@v5
+        if: steps.check.outputs.changed == 'true' || github.event.inputs.force-publish == 'true'
+        with:
+          registry-url: 'https://registry.npmjs.org'
       - name: Publish to npm
         if: steps.check.outputs.changed == 'true' || github.event.inputs.force-publish == 'true'
-        run: |
-          npm config set //registry.npmjs.org/:_authToken ${NODE_AUTH_TOKEN}
-          npm publish
+        run: npm publish
