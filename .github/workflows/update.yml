@@ -70,6 +70,4 @@ jobs:
           always-auth: true
       - name: Publish to npm
         if: steps.check.outputs.changed == 'true' || github.event.inputs.force-publish == 'true'
-        run: |
-          npm whoami
-          npm publish
+        run: npm publish --provenance --access public
