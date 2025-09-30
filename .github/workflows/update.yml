@@ -8,6 +8,13 @@ on:
       force-publish:
         type: boolean
         description: Try to publish even if aaguids.json did not change
+      version:
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+        
 
 jobs:
   update-aaguids:
@@ -45,10 +52,10 @@ jobs:
           git commit -m "update aaguids.json"
 
       - name: Bump version
-        if: steps.check.outputs.changed == 'true' || github.event.inputs.force-publish == 'true'
+        if: steps.check.outputs.changed == 'true' || (github.event.inputs.force-publish == 'true' && github.event.inputs.version)
         run: |
           # update package version
-          npm version patch
+          npm version ${{ github.event.inputs.version || 'patch' }}
 
           # push changes to repo
           git push --follow-tags
