@@ -31,14 +31,16 @@ jobs:
         id: check
         run: ((git status --porcelain aaguids.json | grep -q .) && echo "changed=true" || echo "changed=false") >> "$GITHUB_OUTPUT"
 
-      - name: Commit changes
-        if: steps.check.outputs.changed == 'true'
+      - name: Setup git user
+        if: steps.check.outputs.changed == 'true' || github.event.inputs.force-publish == 'true'
         run: |
           # configure git user
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          # commit changes
+          
+      - name: Commit changes
+        if: steps.check.outputs.changed == 'true'
+        run: |
           git add aaguids.json
           git commit -m "update aaguids.json"
 
