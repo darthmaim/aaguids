@@ -11,9 +11,11 @@ on:
       version:
         type: choice
         options:
+          - '-'
           - patch
           - minor
           - major
+        default: patch
         
 
 jobs:
@@ -52,7 +54,7 @@ jobs:
           git commit -m "update aaguids.json"
 
       - name: Bump version
-        if: steps.check.outputs.changed == 'true' || (github.event.inputs.force-publish == 'true' && github.event.inputs.version)
+        if: steps.check.outputs.changed == 'true' || (github.event.inputs.force-publish == 'true' && github.event.inputs.version != '-')
         run: |
           # update package version
           npm version ${{ github.event.inputs.version || 'patch' }}
