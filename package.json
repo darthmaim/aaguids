@@ -1,6 +1,6 @@
 {
   "name": "aaguids",
-  "version": "0.0.37",
+  "version": "0.0.38",
   "description": "Maps AAGUIDs to display names.",
   "main": "./index.js",
   "types": "./index.d.ts",
