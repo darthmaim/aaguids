@@ -137,6 +137,7 @@
   "5eaff75a-dd43-451f-af9f-87c9eeae293e": "Swissbit iShield Key 2 FIPS Enterprise",
   "b415094c-49d3-4c8b-b3fe-7d0ad28a6bc4": "ZTPass SmartAuth",
   "692db549-7ae5-44d5-a1e5-dd20a493b723": "HID Crescendo Key",
+  "23315ad0-6aca-4ba1-952e-f044f1e36976": "Clife Key 2 NFC",
   "1d1b4e33-76a1-47fb-97a0-14b10d0933f1": "Cryptnox FIDO2.1",
   "bbf4b6a7-679d-f6fc-c4f2-8ac0ddf9015a": "Excelsecu eSecu FIDO2 PRO Security Key",
   "3e22415d-7fdf-4ea4-8a0c-dd60c4249b9d": "Feitian iePass FIDO Authenticator",
@@ -255,8 +256,10 @@
   "ff4dac45-ede8-4ec2-aced-cf66103f4335": "YubiKey 5 Series",
   "ba86dc56-635f-4141-aef6-00227b1b9af6": "TruU Windows Authenticator",
   "3e078ffd-4c54-4586-8baa-a77da113aec5": "Hideez Key 3 FIDO2",
+  "fc5ca237-69a0-4f3c-afe4-1ebc66def6df": "Clife Key 2",
   "ec31b4cc-2acc-4b8e-9c01-bade00ccbe26": "KeyXentic FIDO2 Secp256R1 FIDO2 CTAP2 Authenticator",
   "5d629218-d3a5-11ed-afa1-0242ac120002": "Swissbit iShield Key Pro",
+  "bb878d7b-cf54-4784-b390-357030497043": "TruU FIDO2 Authenticator",
   "d41f5a69-b817-4144-a13c-9ebd6d9254d6": "ATKey.Card CTAP2.0",
   "e86addcd-7711-47e5-b42a-c18257b0bf61": "IDCore 3121 Fido",
   "95442b2e-f15e-4def-b270-efb106facb4e": "eWBM eFA310 FIDO2 Authenticator",
@@ -303,5 +306,6 @@
   "a10c6dd9-465e-4226-8198-c7c44b91c555": "Kaspersky Password Manager",
   "d350af52-0351-4ba2-acd3-dfeeadc3f764": "pwSafe",
   "d3452668-01fd-4c12-926c-83a4204853aa": "Microsoft Password Manager",
-  "6d212b28-a2c1-4638-b375-5932070f62e9": "initial"
+  "6d212b28-a2c1-4638-b375-5932070f62e9": "initial",
+  "d49b2120-b865-4191-8cea-be84a52b0485": "Heimlane Vault"
 }
