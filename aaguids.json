@@ -116,7 +116,7 @@
   "f56f58b3-d711-4afc-ba7d-6ac05f88cb19": "WinMagic FIDO Eazy - Phone",
   "6ec5cff2-a0f9-4169-945b-f33b563f7b99": "YubiKey Bio Series - Multi-protocol Edition (Enterprise Profile)",
   "882adaf5-3aa9-4708-8e7d-3957103775b4": "T-Shield TrustSec FIDO2 Bio and client PIN version",
-  "49a15c1c-3f63-3f51-23a7-b9e00096edd1": "IDEX CTAP2.1 Biometric, No pin",
+  "49a15c1c-3f63-3f51-23a7-b9e00096edd1": "IDEX CTAP2.1 Biometrics",
   "f4c63eff-d26c-4248-801c-3736c7eaa93a": "FIDO KeyPass S3",
   "d384db22-4d50-ebde-2eac-5765cf1e2a44": "Excelsecu eSecu FIDO2 Fingerprint Security Key",
   "0db01cd6-5618-455b-bb46-1ec203d3213e": "GoldKey Security Token",
@@ -313,5 +313,6 @@
   "d350af52-0351-4ba2-acd3-dfeeadc3f764": "pwSafe",
   "d3452668-01fd-4c12-926c-83a4204853aa": "Microsoft Password Manager",
   "6d212b28-a2c1-4638-b375-5932070f62e9": "initial",
-  "d49b2120-b865-4191-8cea-be84a52b0485": "Heimlane Vault"
+  "d49b2120-b865-4191-8cea-be84a52b0485": "Heimlane Vault",
+  "e8b7f4a2-c3d5-e6f7-890a-b1c2d3e4f567": "Sherlocked"
 }
