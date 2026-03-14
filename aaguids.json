@@ -71,6 +71,7 @@
   "39589099-9a75-49fc-afaa-801ca211c62a": "Feitian ePass FIDO-NFC (Enterprise Profile) (CTAP2.1, CTAP2.0, U2F)",
   "149a2021-8ef6-4133-96b8-81f8d5b7f1f5": "Security Key by Yubico with NFC",
   "5df66f62-5b47-43d3-aa1d-a6e31c8dbeb5": "Securitag Assembly Group FIDO Authenticator NFC",
+  "9a272558-5cfa-4424-be37-65509677b77d": "SECORA ID Key S USB by Infineon Consumer Edition",
   "09619fbf-d75e-4a62-be1d-fe4d240864ae": "VeriMark(TM) Guard 2.1 Fingerprint Security Key",
   "50cbf15a-238c-4457-8f16-812c43bf3c49": "Ensurity AUTH TouchPro",
   "ee7fa1e0-9539-432f-bd43-9c2fc6d4f311": "VeriMark NFC+ USB-C Security Key",
@@ -172,6 +173,7 @@
   "092277e5-8437-46b5-b911-ea64b294acb7": "Taglio CTAP2.1 CS",
   "ca87cb70-4c1b-4579-a8e8-4efdd7c007e0": "FIDO Alliance TruU Sample FIDO2 Authenticator",
   "23195a52-62d9-40fa-8ee5-23b173f4fb52": "Hyper FIDO Pro NFC",
+  "3e9db280-256a-4e17-b08e-19d79e9be166": "SECORA ID V2 by Infineon Pay Edition",
   "a7fc3f84-86a3-4da4-a3d7-eb6485a066d8": "NEOWAVE Badgeo FIDO2 (CTAP 2.1)",
   "9e66c661-e428-452a-a8fb-51f7ed088acf": "YubiKey 5 FIPS Series with Lightning (RC Preview)",
   "58b44d0b-0a7c-f33a-fd48-f7153c871352": "Ledger Nano S Plus FIDO2 Authenticator",
@@ -250,6 +252,7 @@
   "ba76a271-6eb6-4171-874d-b6428dbe3437": "ATKey.ProS",
   "97e6a830-c952-4740-95fc-7c78dc97ce47": "YubiKey Bio Series - Multi-protocol Edition (Enterprise Profile)",
   "f573f209-b7fb-b261-671a-d7cf624cc812": "Excelsecu eSecu FIDO2 PRO+ Security Key",
+  "005b20e1-f146-4b87-8f3a-36848ff60ea6": "SECORA ID V2 by Infineon Pay Edition M",
   "6e24d385-004a-16a0-7bfe-efd963845b34": "Ledger Stax FIDO2 Authenticator",
   "ee882879-721c-4913-9775-3dfcce97072a": "YubiKey 5 Series",
   "8876631b-d4a0-427f-5773-0ec71c9e0279": "Solo Secp256R1 FIDO2 CTAP2 Authenticator",
@@ -319,5 +322,6 @@
   "d3452668-01fd-4c12-926c-83a4204853aa": "Microsoft Password Manager",
   "6d212b28-a2c1-4638-b375-5932070f62e9": "initial",
   "d49b2120-b865-4191-8cea-be84a52b0485": "Heimlane Vault",
-  "d9be9d39-e6a6-4c28-a581-32b044d986e4": "Sticky Password Manager"
+  "d9be9d39-e6a6-4c28-a581-32b044d986e4": "Sticky Password Manager",
+  "70617373-7761-6c6c-6669-646f32303236": "Passwall"
 }
