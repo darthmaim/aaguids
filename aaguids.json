@@ -98,6 +98,7 @@
   "2c0df832-92de-4be1-8412-88a8f074df4a": "Feitian FIDO Smart Card",
   "59f85fe7-faa5-4c92-9f52-697b9d4d5473": "RSA Authenticator 4 for Android",
   "79f3c8ba-9e35-484b-8f47-53a5a0f5c630": "YubiKey 5 FIPS Series with NFC (Enterprise Profile)",
+  "7a53c643-9dec-4219-b3a4-f9d24aca4e12": "G+D StarKey FIDO2-NFC",
   "def8ab1a-9f91-44f1-a103-088d8dc7d681": "IDEMIA SOLVO Fly 80 R3 FIDO Card e",
   "970c8d9c-19d2-46af-aa32-3f448db49e35": "WinMagic FIDO Eazy - TPM",
   "c5703116-972b-4851-a3e7-ae1259843399": "NEOWAVE Badgeo FIDO2",
@@ -128,6 +129,7 @@
   "1e906e14-77af-46bc-ae9f-fe6ef18257e4": "VeridiumID Passkey iOS SDK",
   "2fc0579f-8113-47ea-b116-bb5a8db9202a": "YubiKey 5 Series with NFC",
   "31c3f7ff-bf15-4327-83ec-9336abcbcd34": "WinMagic FIDO Eazy - Software",
+  "cb4f796c-a20a-af9e-d639-213c1ec247f3": "ACS PocketKey+ Bio",
   "9ddd1817-af5a-4672-a2b9-3e3dd95000a9": "Windows Hello",
   "d8522d9f-575b-4866-88a9-ba99fa02f35b": "YubiKey Bio Series - FIDO Edition",
   "050dd0bc-ff20-4265-8d5d-305c4b215192": "eToken Fusion FIPS",
@@ -323,5 +325,6 @@
   "6d212b28-a2c1-4638-b375-5932070f62e9": "initial",
   "d49b2120-b865-4191-8cea-be84a52b0485": "Heimlane Vault",
   "d9be9d39-e6a6-4c28-a581-32b044d986e4": "Sticky Password Manager",
-  "70617373-7761-6c6c-6669-646f32303236": "Passwall"
+  "70617373-7761-6c6c-6669-646f32303236": "Passwall",
+  "c9cadfc9-89a9-489e-a25a-c7e86a4d5f15": "Burp Suite Navigation Recorder"
 }
