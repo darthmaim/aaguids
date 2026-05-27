@@ -143,6 +143,7 @@
   "2fc0579f-8113-47ea-b116-bb5a8db9202a": "YubiKey 5 Series with NFC",
   "31c3f7ff-bf15-4327-83ec-9336abcbcd34": "WinMagic FIDO Eazy - Software",
   "cb4f796c-a20a-af9e-d639-213c1ec247f3": "ACS PocketKey+ Bio",
+  "686de81e-fff2-41c1-bb83-2723aaf3e913": "IIST SASE USB KEY 1",
   "9ddd1817-af5a-4672-a2b9-3e3dd95000a9": "Windows Hello",
   "d8522d9f-575b-4866-88a9-ba99fa02f35b": "YubiKey Bio Series - FIDO Edition",
   "050dd0bc-ff20-4265-8d5d-305c4b215192": "eToken Fusion FIPS",
@@ -358,5 +359,9 @@
   "d49b2120-b865-4191-8cea-be84a52b0485": "Heimlane Vault",
   "d9be9d39-e6a6-4c28-a581-32b044d986e4": "Sticky Password Manager",
   "70617373-7761-6c6c-6669-646f32303236": "Passwall",
-  "c9cadfc9-89a9-489e-a25a-c7e86a4d5f15": "Burp Suite Navigation Recorder"
+  "c9cadfc9-89a9-489e-a25a-c7e86a4d5f15": "Burp Suite Navigation Recorder",
+  "fa37f553-f9b6-4adb-ac53-8bbb57ebdf0d": "Norton Password Manager",
+  "a4a2d88e-9796-4356-9164-e2a5a8bd019c": "Avast Password Manager",
+  "e7db2bd3-f2fe-4d71-ad78-7e7aa166cfd1": "Avira Password Manager",
+  "6bb49926-160a-4306-a100-4eb39ba6ac45": "AVG Password Manager"
 }
