@@ -52,6 +52,7 @@
   "1105e4ed-af1d-02ff-ffff-ffffffffffff": "Egomet FIDO2 Authenticator for Android",
   "08987058-cadc-4b81-b6e1-30de50dcbe96": "Windows Hello",
   "a4e9fc6d-4cbe-4758-b8ba-37598bb5bbaa": "Security Key NFC by Yubico",
+  "8caf7e7b-6c8b-46a9-b36b-5d04740d7463": "cryptovision ePasslet Suite FIDO Authenticator",
   "0acf3011-bc60-f375-fb53-6f05f43154e0": "Nymi FIDO2 Authenticator",
   "d91c5288-0ef0-49b7-b8ae-21ca0aa6b3f3": "KEY-ID FIDO2 Authenticator",
   "8eec9bf9-486c-46da-9a67-1fbb4f66b9ed": "HID Crescendo 4000 FIPS",
@@ -103,6 +104,7 @@
   "30b5035e-d297-4ff7-030b-addc96ba6a98": "OneSpan DIGIPASS FX7-C",
   "e41b42a3-60ac-4afb-8757-a98f2d7f6c9f": "Deepnet SafeKey/Classic (FP)",
   "c89e6a38-6c00-5426-5aa5-c9cbf48f0382": "ACS FIDO Authenticator NFC",
+  "11544c3c-3693-40ba-9dbb-3b8d2b977988": "Thales PAY GFCX20.1 authenticator",
   "eb7ef748-cbe0-4b40-b8f6-07bd2d592d35": "YubiKey 5 CCN Series with NFC (Consumer Profile)",
   "a02167b9-ae71-4ac7-9a07-06432ebb6f1c": "YubiKey 5 Series with Lightning",
   "82b0a720-127a-4788-b56d-d1d4b2d82eac": "ID-One Key",
@@ -110,6 +112,7 @@
   "2c0df832-92de-4be1-8412-88a8f074df4a": "Feitian FIDO Smart Card",
   "59f85fe7-faa5-4c92-9f52-697b9d4d5473": "RSA Authenticator 4 for Android",
   "22682ee5-4f0e-4c19-be3e-797d5770ebfe": "Precision InnaIT Key FIDO 2 Level 2 certified",
+  "0fbb74b5-f1ac-4f14-a0f1-ec39b5edfdae": "Thales PAY GFCX19 authenticator",
   "79f3c8ba-9e35-484b-8f47-53a5a0f5c630": "YubiKey 5 FIPS Series with NFC (Enterprise Profile)",
   "6e34341a-88c7-483d-b777-a425c355be93": "WebComm OETHenticator",
   "7a53c643-9dec-4219-b3a4-f9d24aca4e12": "G+D StarKey FIDO2-NFC",
@@ -385,5 +388,6 @@
   "87f5ec51-f721-4feb-9fe4-be18c4971894": "PassCard",
   "477b05cd-7f78-4fe7-b629-27247f296138": "WALLIX Vault",
   "53e7a7a5-e75f-4d3d-9483-12fc779cdf23": "Password Depot",
-  "cb6f6666-38ea-4873-9161-ff456a82d316": "iPass Secure Auth"
+  "cb6f6666-38ea-4873-9161-ff456a82d316": "iPass Secure Auth",
+  "9f8a3b2c-1d4e-4f6a-8b0c-2e1d3c4b5a69": "U2 Secured"
 }
