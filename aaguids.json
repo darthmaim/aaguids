@@ -326,6 +326,7 @@
   "39502df1-646d-4e31-81a1-2ef68b324678": "USB GoldKey Security Token",
   "8108bdcd-8483-46b3-b3ce-359f8190325e": "SECORA ID V2 by Infineon Enterprise Edition",
   "b113a455-cfb6-4c17-8cba-cd952feb7d48": "eToken FIDO NFC",
+  "e50e32f3-02ec-4afb-bdac-7205d12629df": "IDEMIA FIDO Card",
   "95442b2e-f15e-4def-b270-efb106facb4e": "eWBM eFA310 FIDO2 Authenticator",
   "dda9aa35-aaf1-4d3c-b6db-7902fd7dbbbf": "IDEMIA SOLVO Fly 80 R3 FIDO Card c",
   "cdbdaea2-c415-5073-50f7-c04e968640b6": "Excelsecu eSecu FIDO2 Security Key",
@@ -345,6 +346,7 @@
   "7991798a-a7f3-487f-98c0-3faf7a458a04": "HID Crescendo Key V3",
   "833b721a-ff5f-4d00-bb2e-bdda3ec01e29": "Feitian ePass FIDO2 Authenticator",
   "c89674e3-a765-4b07-888a-7c086fbdf04b": "StarSign FIDO Card",
+  "6d6f6e69-6361-4d33-a001-706173736b79": "Monica Pass",
   "a11a5faa-9f32-4b8c-8c5d-2f7d13e8c942": "AliasVault",
   "ea9b8d66-4d01-1d21-3ce4-b6b48cb575d4": "Google Password Manager",
   "adce0002-35bc-c60a-648b-0b25f1f05503": "Chrome on Mac",
@@ -396,5 +398,7 @@
   "9c1f2b6e-4d3a-4f7c-8b21-5e6a7d8c9f01": "Idira",
   "9f8a3b2c-1d4e-4f6a-8b0c-2e1d3c4b5a69": "U2 Secured",
   "69840def-9dcf-4632-bf87-6ac2e451b4f5": "Keyholm",
-  "35d5ea15-ab24-4416-bdd1-f204c9bce1b6": "CyberFOX Password Manager"
+  "35d5ea15-ab24-4416-bdd1-f204c9bce1b6": "CyberFOX Password Manager",
+  "f1d0badc-0def-4f1d-8bad-c0def1d0badc": "fidont",
+  "c4ed941c-86d3-4532-a6a9-bc42b80d5c38": "Authn8"
 }
