@@ -318,6 +318,7 @@
   "3e078ffd-4c54-4586-8baa-a77da113aec5": "Hideez Key 3 FIDO2",
   "fc5ca237-69a0-4f3c-afe4-1ebc66def6df": "Clife Key 2",
   "ec31b4cc-2acc-4b8e-9c01-bade00ccbe26": "KeyXentic FIDO2 Secp256R1 FIDO2 CTAP2 Authenticator",
+  "531126d6-e717-415c-9320-3d9aa6981239": "Dashlane",
   "5d629218-d3a5-11ed-afa1-0242ac120002": "Swissbit iShield Key Pro",
   "bb878d7b-cf54-4784-b390-357030497043": "TruU FIDO2 Authenticator",
   "6f706c75-7366-6964-6f2d-70732d303031": "OPPO FIDO2 Authenticator",
@@ -346,12 +347,12 @@
   "7991798a-a7f3-487f-98c0-3faf7a458a04": "HID Crescendo Key V3",
   "833b721a-ff5f-4d00-bb2e-bdda3ec01e29": "Feitian ePass FIDO2 Authenticator",
   "c89674e3-a765-4b07-888a-7c086fbdf04b": "StarSign FIDO Card",
+  "7c30bcef-f035-4e21-9175-5c985b4b239c": "TeamPass",
   "6d6f6e69-6361-4d33-a001-706173736b79": "Monica Pass",
   "a11a5faa-9f32-4b8c-8c5d-2f7d13e8c942": "AliasVault",
   "ea9b8d66-4d01-1d21-3ce4-b6b48cb575d4": "Google Password Manager",
   "adce0002-35bc-c60a-648b-0b25f1f05503": "Chrome on Mac",
   "dd4ec289-e01d-41c9-bb89-70fa845d4bf2": "iCloud Keychain (Managed)",
-  "531126d6-e717-415c-9320-3d9aa6981239": "Dashlane",
   "bada5566-a7aa-401f-bd96-45619a55120d": "1Password",
   "b84e4048-15dc-4dd0-8640-f4f60813c8af": "NordPass",
   "0ea242b4-43c4-4a1b-8b17-dd6d0b6baec6": "Keeper",
@@ -400,5 +401,6 @@
   "69840def-9dcf-4632-bf87-6ac2e451b4f5": "Keyholm",
   "35d5ea15-ab24-4416-bdd1-f204c9bce1b6": "CyberFOX Password Manager",
   "f1d0badc-0def-4f1d-8bad-c0def1d0badc": "fidont",
-  "c4ed941c-86d3-4532-a6a9-bc42b80d5c38": "Authn8"
+  "c4ed941c-86d3-4532-a6a9-bc42b80d5c38": "Authn8",
+  "441f5bad-a8ec-4572-8094-ee73a1c7cec7": "Fobb Security"
 }
